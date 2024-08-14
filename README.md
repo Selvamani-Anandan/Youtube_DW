@@ -13,9 +13,11 @@ List any software, libraries, or hardware needed to run this project.
  4. pandas
  5. isodate
 
- isodate is used to convert the video duration format to HH:MM:SS so that average duration can be calculated.
- Handled exception through HttpError, When video have disabled comments it is handled.
- And video tag type is converted to a string of comma separated values to support dataframe conversion.
+### Explanation on few changes
+ 1. isodate is used to convert the video duration format to HH:MM:SS so that average duration can be calculated.
+ 2. Handled exception through HttpError, When video have disabled comments it is handled.
+ 3. And video tag type is converted to a string of comma separated values to support dataframe conversion.
+ 4. pandas DataFrame index is incremented to start the serial number in UI to start from 1 instead of 0.
 
 
 ### Installing
