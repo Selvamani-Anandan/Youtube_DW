@@ -22,12 +22,12 @@ List any software, libraries, or hardware needed to run this project.
 pip install the above mentioned libraries.
 
 ## Usage
-Input a valid Channel ID, to save and view it's details.
-Once data is retrieved and saved, User notified on successfull save response.
-User can view tables availble through radio options.
-User can select a question and the answer will be shown.
-If the input is Invalid, user will be notified "Not a valid channel ID"
-If no input, user will get a warning, "Please enter a channel ID."
+1. Input a valid Channel ID, to save and view it's details.
+2. Once data is retrieved and saved, User notified on successfull save response.
+3. User can view tables availble through radio options.
+4. User can select a question and the answer will be shown.
+5. If the input is Invalid, user will be notified "Not a valid channel ID"
+6. If no input, user will get a warning, "Please enter a channel ID."
 
 ## Contributing
 Guidelines on how to contribute to the project.
